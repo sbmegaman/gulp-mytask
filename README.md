@@ -7,3 +7,7 @@ gulp tasks memo
 src
 └ _partial
 ```
+
+## styles
+
+FLOCCSに準拠（しているつもり）のひな形

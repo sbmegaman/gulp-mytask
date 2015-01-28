@@ -1,0 +1,24 @@
+/* ========================================================== */
+/* main.scss */
+/* ========================================================== */
+
+.l-row{
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+}
+.l-row__col{
+    display: table-cell;
+    vertical-align: top;
+}
+
+/* floatを利用した旧態依然のカラム */
+.l-f-row{
+    overflow: hidden;
+
+}
+.l-f-row__col{
+    float: left;
+}
+
+/* ============================================ */
