@@ -1,0 +1,22 @@
+/* ========================================================== */
+/* Object/Component/grid */
+/* ========================================================== */
+
+.c-row{
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+}
+.c-row__col{
+    display: table-cell;
+    vertical-align: top;
+}
+
+/* floatを利用した旧態依然のカラム */
+.c-f-row{
+    overflow: hidden;
+
+}
+.c-f-row__col{
+    float: left;
+}
