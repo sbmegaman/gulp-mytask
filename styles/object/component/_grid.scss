@@ -20,3 +20,13 @@
 .c-f-row__col{
     float: left;
 }
+
+
+.c-container{
+    width: 960px;
+    margin: 0 auto;
+
+    /* FIXME:for debug */
+    /* border-right: 1px dashed rgba(255, 0, 0, 0.2); */
+    /* border-left: 1px dashed rgba(255, 0, 0, 0.2); */
+}
