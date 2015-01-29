@@ -1,8 +1,8 @@
-@import '_h5bp';
 // ==========================================================================
 // Foundation
 // ==========================================================================
 
+@import '_h5bp';
 @import "foundation/base";
 @import "foundation/normalize";
 
@@ -25,6 +25,7 @@
 
 @import "object/component/button";
 @import "object/component/label";
+@import "object/component/link";
 /* @import "object/component/dialog"; */
 @import "object/component/grid";
 /* @import "object/component/media"; */
@@ -34,7 +35,6 @@
 // -----------------------------------------------------------------
 
 @import "object/project/articles";
-@import "object/project/link";
 /* @import "object/project/comments"; */
 /* @import "object/project/gallery"; */
 /* @import "object/project/profile"; */
