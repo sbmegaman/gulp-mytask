@@ -3,17 +3,17 @@
 // Foundation
 // ==========================================================================
 
-@import "foundation/_base";
-@import "foundation/_normalize";
+@import "foundation/base";
+@import "foundation/normalize";
 
 // ==========================================================================
 // Layout
 // ==========================================================================
 
-@import "layout/_footer";
-@import "layout/_header";
-@import "layout/_main";
-/* @import "layout/_sidebar"; */
+@import "layout/footer";
+@import "layout/header";
+@import "layout/main";
+/* @import "layout/sidebar"; */
 
 // ==========================================================================
 // Object
@@ -24,7 +24,7 @@
 // -----------------------------------------------------------------
 
 @import "object/component/button";
-@import "object/component/_label";
+@import "object/component/label";
 /* @import "object/component/dialog"; */
 @import "object/component/grid";
 /* @import "object/component/media"; */
@@ -33,19 +33,19 @@
 // Project
 // -----------------------------------------------------------------
 
-@import "object/project/_articles";
-/* @import "object/project/_comments"; */
-/* @import "object/project/_gallery"; */
-/* @import "object/project/_profile"; */
+@import "object/project/articles";
+/* @import "object/project/comments"; */
+/* @import "object/project/gallery"; */
+/* @import "object/project/profile"; */
 
 // -----------------------------------------------------------------
 // Utility
 // -----------------------------------------------------------------
 
-@import "object/utility/_general";
-/* @import "object/utility/_align"; */
-/* @import "object/utility/_clearfix"; */
-/* @import "object/utility/_margin"; */
-/* @import "object/utility/_position"; */
-/* @import "object/utility/_size"; */
-/* @import "object/utility/_text"; */
+@import "object/utility/general";
+/* @import "object/utility/align"; */
+/* @import "object/utility/clearfix"; */
+/* @import "object/utility/margin"; */
+/* @import "object/utility/position"; */
+/* @import "object/utility/size"; */
+/* @import "object/utility/text"; */
