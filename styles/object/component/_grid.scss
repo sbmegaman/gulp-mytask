@@ -10,7 +10,7 @@
     display: table-cell;
 }
 
-/* floatを利用した旧態依然のカラム */
+/* floatを利用した旧型カラム */
 .c-f-row{
     overflow: hidden;
 
@@ -23,8 +23,9 @@
 .c-container{
     width: $containerWidth;
     margin: 0 auto;
-
-    /* FIXME:for debug */
-    /* border-right: 1px dashed rgba(255, 0, 0, 0.2); */
-    /* border-left: 1px dashed rgba(255, 0, 0, 0.2); */
+    /* for debug */
+    @if $isDevelop{
+        border-right: 1px dashed rgba(255, 0, 0, 0.2);
+        border-left: 1px dashed rgba(255, 0, 0, 0.2);
+    }
 }
