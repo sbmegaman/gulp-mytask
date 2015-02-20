@@ -9,6 +9,7 @@ $isDevelop     : false; // 開発中？
 
 /* colors */
 $mainColor: #f36a00;
+$bgColor  : #fff;
 
 /* layout */
 body{
@@ -19,7 +20,7 @@ body{
     & *{
         box-sizing: border-box;
     }
-    background-color: #F9F9F9
+    background-color: $bgColor
 }
 h1, h2, h3, h4, h5, h6{
     color: #3D465A;
