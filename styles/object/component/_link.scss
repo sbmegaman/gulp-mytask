@@ -1,3 +1,40 @@
 /* ========================================================== */
 /* Object/Component/link */
 /* ========================================================== */
+$color1: #1f1f1f;
+$color2: #3DA915;
+
+.c-link--primary{
+    color: $color1;
+    &:visited{
+        color: $color1 !important;
+    }
+    &:hover{
+        color: $color1 !important;
+    }
+}
+.c-link--second{
+    color: $color2;
+    &:visited{
+        color: $color2 !important;
+    }
+    &:hover{
+        color: #3b8914 !important;
+    }
+}
+.c-link--text{
+    color: #333;
+    &:visited{
+        color: #333 !important;
+    }
+    &:hover{
+        color: #333 !important;
+    }
+}
+
+.c-link--bnone{
+    text-decoration: none;
+    &:hover{
+        text-decoration: underline;
+    }
+}
