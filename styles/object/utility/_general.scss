@@ -73,6 +73,10 @@
 /* clear:both */
 /**************/
 .cb{ clear:both; }
+// micro clearfix
+.cf{
+    @include cf;
+}
 
 /* 回り込み */
 .fl_left {
